@@ -1,0 +1,40 @@
+#hot{
+    background-color: aquamarine;
+    height: 58vh;
+    border-radius: 20px;
+    padding-top: 2%
+}
+
+.header-title{
+    top: 30%;
+    bottom: 30%;
+    left: 10%;
+}
+
+.header-title > h1{
+    font-size: 3vw;
+}
+.header-title > p{
+    font-size: 1.5vw;
+}
+
+span.hto-btn.bg-danger.px-3.rounded-pill.position-absolute{
+    right: 4%;
+    top: -2%;
+}
+
+.toast.d-flex.flex-row-reverse.justify-content-between.fade.show{
+    position: absolute;
+    right: 0;
+    bottom: -26%;
+}
+
+
+
+@media only screen and (min-width: 992px) {
+    #hot {
+        position: relative;
+        bottom: 40px;
+    }
+
+  }
